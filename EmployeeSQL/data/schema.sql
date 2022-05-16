@@ -1,4 +1,11 @@
-DROP TABLE IF EXISTS Departments;
+SELECT * FROM departments;
+SELECT * FROM titles;
+SELECT * FROM employees;
+SELECT * FROM dept_emp;
+SELECT * FROM dept_manager;
+SELECT * FROM salaries;
+
+DROP TABLE IF EXISTS departments;
 DROP TABLE IF EXISTS dept_emp;
 DROP TABLE IF EXISTS dept_manager;
 DROP TABLE IF EXISTS employees;
